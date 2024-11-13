@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="0" passed="0" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-10T17:18:51Z" name="Test Suite for Buildout" finished-at="2024-11-10T17:18:53Z" duration-ms="2149">
+  <suite started-at="2024-11-13T15:39:34Z" name="Test Suite for Buildout" finished-at="2024-11-13T15:40:03Z" duration-ms="29086">
     <groups>
     </groups>
-    <test started-at="2024-11-10T17:18:51Z" name="Test Cases for Buildout" finished-at="2024-11-10T17:18:53Z" duration-ms="2149">
+    <test started-at="2024-11-13T15:39:34Z" name="Test Cases for Buildout" finished-at="2024-11-13T15:40:03Z" duration-ms="29086">
       <class name="demo.TestCases">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@4b40f651]" started-at="2024-11-10T22:48:51Z" name="startBrowser" finished-at="2024-11-10T22:48:53Z" duration-ms="1950" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@34158c08]" started-at="2024-11-13T21:09:34Z" name="startBrowser" finished-at="2024-11-13T21:09:39Z" duration-ms="4778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@4b40f651]" started-at="2024-11-10T22:48:53Z" name="endTest" finished-at="2024-11-10T22:48:53Z" duration-ms="188" status="PASS">
+        <test-method signature="testCase01()[pri:0, instance:demo.TestCases@34158c08]" started-at="2024-11-13T21:09:39Z" name="testCase01" finished-at="2024-11-13T21:10:03Z" duration-ms="23790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@34158c08]" started-at="2024-11-13T21:10:03Z" name="endTest" finished-at="2024-11-13T21:10:03Z" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
